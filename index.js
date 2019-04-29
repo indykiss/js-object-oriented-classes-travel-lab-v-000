@@ -30,7 +30,6 @@ class Route {
       let verticalDistance = this.endingLocation.vertical - this.beginningLocation.vertical;
       let horizontalDistance = eastWest.indexOf(this.endingLocation.horizontal) - eastWest.indexOf(this.beginningLocation.horizontal);
       return  verticalDistance + horizontalDistance;
-
   }
 
   estimatedTime(peak) {
